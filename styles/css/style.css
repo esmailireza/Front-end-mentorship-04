@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rosario&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Noto Sans JP", sans-serif;
+  scroll-behavior: smooth;
+}
+
+li {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+ul .ul-div-justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul .ul-div-justify li {
+  padding: 2rem;
+}
+
+header {
+  background-color: #f3d3c3;
+}
+
+header h1 {
+  font-size: 7rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+header .paragraph-right {
+  position: absolute;
+  -webkit-box-pack: last baseline;
+      -ms-flex-pack: last baseline;
+          justify-content: last baseline;
+  z-index: 10;
+  bottom: 8rem;
+  width: 32%;
+  padding-left: 4rem;
+  line-height: 25px;
+  font-weight: bold;
+  /* Style the submit button */
+}
+
+header .paragraph-right p {
+  font-size: 1.5rem;
+}
+
+header .paragraph-right .paragraph-2 {
+  margin-top: 3rem;
+}
+
+header .paragraph-right form {
+  margin-top: 3rem;
+}
+
+header .paragraph-right .form-search input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 0px;
+  float: left;
+  width: 60%;
+  background: #f1f1f1;
+  outline: none;
+}
+
+header .paragraph-right .form-search button {
+  float: left;
+  width: 12%;
+  padding: 10px;
+  background: #362b23;
+  color: white;
+  font-size: 17px;
+  border: 0px;
+  border-left: none;
+  /* Prevent double borders */
+  cursor: pointer;
+}
+
+header .paragraph-right .form-search button:hover {
+  background: #362b23;
+}
+
+header .view-btn {
+  position: absolute;
+  bottom: 0rem;
+  z-index: 10;
+  margin-left: 4rem;
+  padding: 1.5rem 5rem;
+  border: none;
+  background-color: #362b23;
+  color: white;
+}
+
+header .view-btn:hover {
+  cursor: pointer;
+}
+
+header h2,
+header span {
+  position: absolute;
+  z-index: 10;
+}
+
+header h2 {
+  right: 20%;
+  bottom: 19%;
+}
+
+header span {
+  right: 37%;
+  color: white;
+  font-size: 2rem;
+  background-color: #b85830;
+  padding: 1.8rem 2.4rem;
+  opacity: 0.7;
+  border-radius: 60%;
+  bottom: 15.5%;
+}
+
+header .border-line {
+  border: 1px solid #362b23;
+  width: 8%;
+  z-index: 15;
+  position: absolute;
+  bottom: 20%;
+  right: 28%;
+}
+
+header .p-skin {
+  position: absolute;
+  z-index: 10;
+  bottom: 10%;
+  font-size: 1.5rem;
+  right: 8.5%;
+  width: 18%;
+  line-height: 2.2rem;
+}
+
+img {
+  position: relative;
+}
+
+.sec-lenders {
+  background-color: #fef6f0;
+  padding: 4rem 0;
+}
+
+.sec-lenders h1 {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.sec-lenders ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  /* width: 80%;
+    display: flex;
+    justify-content: space-around; */
+}
+
+.sec-lenders .resize-logo {
+  width: 140px;
+  margin-right: 6rem;
+}
+/*# sourceMappingURL=style.css.map */

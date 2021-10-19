@@ -1,0 +1,104 @@
+header {
+  background-color: $bgColor;
+  h1 {
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .paragraph-right {
+    position: absolute;
+    justify-content: last baseline;
+    z-index: 10;
+    bottom: 8rem;
+    width: 32%;
+    padding-left: 4rem;
+    line-height: 25px;
+    font-weight: bold;
+    p {
+      font-size: 1.5rem;
+    }
+    .paragraph-2 {
+      margin-top: 3rem;
+    }
+    form {
+      margin-top: 3rem;
+    }
+    .form-search input[type="text"] {
+      padding: 10px;
+      font-size: 17px;
+      border: 0px;
+      float: left;
+      width: 60%;
+      background: #f1f1f1;
+      outline: none;
+    }
+    /* Style the submit button */
+    .form-search button {
+      float: left;
+      width: 12%;
+      padding: 10px;
+      background: $brownDarkColor;
+      color: white;
+      font-size: 17px;
+      border: 0px;
+      border-left: none; /* Prevent double borders */
+      cursor: pointer;
+      &:hover {
+        background: $brownDarkColor;
+      }
+    }
+  }
+  .view-btn {
+    position: absolute;
+    bottom: 0rem;
+    z-index: 10;
+    margin-left: 4rem;
+    padding: 1.5rem 5rem;
+    border: none;
+    background-color: $brownDarkColor;
+    color: white;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  h2,
+  span {
+    position: absolute;
+    z-index: 10;
+  }
+  h2 {
+    right: 20%;
+    bottom: 19%;
+  }
+  span {
+    right: 37%;
+    color: white;
+    font-size: 2rem;
+    background-color: $brownLightColor;
+    padding: 1.8rem 2.4rem;
+    opacity: 0.7;
+    border-radius: 60%;
+    bottom: 15.5%;
+  }
+  .border-line {
+    border: 1px solid $brownDarkColor;
+    width: 8%;
+    z-index: 15;
+    position: absolute;
+    bottom: 20%;
+    right: 28%;
+  }
+  .p-skin {
+    position: absolute;
+    z-index: 10;
+    bottom: 10%;
+    font-size: 1.5rem;
+    right: 8.5%;
+    width: 18%;
+    line-height: 2.2rem;
+  }
+}
+img {
+  position: relative;
+}
