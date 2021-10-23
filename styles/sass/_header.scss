@@ -1,5 +1,10 @@
 header {
   background-color: $bgColor;
+  .ul-div-justify {
+    li {
+      font-family: sans-serif;
+    }
+  }
   h1 {
     font-size: 7rem;
     text-align: center;

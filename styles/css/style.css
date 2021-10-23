@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rosario&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap%27");
 * {
   padding: 0;
   margin: 0;
@@ -46,6 +47,10 @@ ul .ul-div-justify li {
 
 header {
   background-color: #f3d3c3;
+}
+
+header .ul-div-justify li {
+  font-family: sans-serif;
 }
 
 header h1 {
@@ -193,5 +198,438 @@ img {
 .sec-lenders .resize-logo {
   width: 140px;
   margin-right: 6rem;
+}
+
+.sec-about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8rem 0rem;
+}
+
+.about-us {
+  width: 50%;
+  margin-left: 12rem;
+}
+
+.about-us h1 {
+  font-size: 8rem;
+  font-weight: 100;
+  /* margin-left: 10rem; */
+}
+
+.about-us p {
+  font-size: 2rem;
+  /* margin-left: 10rem; */
+  line-height: 3rem;
+  padding-right: 15rem;
+}
+
+.about-us .view-btn {
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+  background-color: #362b23;
+  color: white;
+  /* margin-left: 10rem; */
+}
+
+.about-us-2 {
+  width: 50%;
+}
+
+.about-us-2 p {
+  font-size: 2rem;
+  padding-right: 16rem;
+  line-height: 3rem;
+}
+
+.about-us-2 .Read-btn {
+  color: black;
+  background-color: white;
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+}
+
+.products {
+  margin: 2rem 0rem;
+}
+
+.products .title-products {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.products .p-products {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sec-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8rem 0rem;
+}
+
+.sec-products .sec-1 {
+  width: 50%;
+  margin-left: 12rem;
+}
+
+.sec-products .sec-1 h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  margin: 1.5rem 0rem;
+  /* margin-left: 10rem; */
+}
+
+.sec-products .sec-1 p {
+  font-size: 2rem;
+  /* margin-left: 10rem; */
+  line-height: 3rem;
+  /* padding-right: 15rem; */
+  width: 80%;
+}
+
+.sec-products .sec-1 .Read-btn {
+  color: black;
+  background-color: white;
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+}
+
+.sec-products .sec-1 .view-btn {
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+  background-color: #362b23;
+  color: white;
+  margin-right: 5rem;
+}
+
+.sec-products .sec-1 .num-percent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  /*  width: 50%; */
+  margin-top: 3rem;
+}
+
+.sec-products .sec-1 .num-percent .sec-num {
+  margin-right: 6rem;
+}
+
+.sec-products .sec-1 .num-percent .num-title {
+  font-size: 3rem;
+  color: #2b555e;
+  font-weight: bold;
+}
+
+.sec-products .sec-1 .num-percent .hr {
+  width: 30%;
+}
+
+.sec-products .sec-1 .num-percent .num-paragraph {
+  font-size: 1.5rem;
+}
+
+.sec-products .about-us-2 h1 {
+  font-size: 5rem;
+  margin: 1.5rem 0rem;
+}
+
+.sec-products .about-us-2 p {
+  width: 90%;
+}
+
+.sec-products .about-us-2 .view-btn {
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+  background-color: #362b23;
+  color: white;
+  margin-right: 5rem;
+}
+
+.sec-products .about-us-2 .num-percent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* width: 50%; */
+  margin-top: 3rem;
+}
+
+.sec-products .about-us-2 .num-percent .num-title {
+  font-size: 3rem;
+  color: #2b555e;
+  font-weight: bold;
+}
+
+.sec-products .about-us-2 .num-percent .hr {
+  width: 30%;
+}
+
+.sec-products .about-us-2 .num-percent .num-paragraph {
+  font-size: 1.5rem;
+}
+
+.sec-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fefbf7;
+  padding: 4rem 0;
+}
+
+.sec-count h1 {
+  font-size: 4.5rem;
+}
+
+.sec-count p {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+.sec-provide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 8rem 0;
+}
+
+.sec-provide .bg-img {
+  width: 500px;
+  height: 596px;
+  z-index: 10;
+  background-color: #edd9cb;
+  position: relative;
+  margin-right: 10rem;
+}
+
+.sec-provide .bg-img img {
+  z-index: 20;
+  position: absolute;
+  right: -4rem;
+  top: -4rem;
+}
+
+.sec-provide .sec-1 {
+  width: 50%;
+  margin-right: -5rem;
+}
+
+.sec-provide .sec-1 h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  margin-top: 8rem;
+  /* margin-left: 10rem; */
+}
+
+.sec-provide .sec-1 p {
+  font-size: 2rem;
+  /* margin-left: 10rem; */
+  line-height: 3rem;
+  /* padding-right: 15rem; */
+  width: 80%;
+  margin-top: 4rem;
+}
+
+.sec-provide .sec-1 .Read-btn {
+  color: black;
+  background-color: white;
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+}
+
+.sec-provide .sec-1 .view-btn {
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+  background-color: #362b23;
+  color: white;
+  margin-right: 5rem;
+}
+
+.sec-provide .sec-1 .num-percent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  /*  width: 50%; */
+  margin-top: 3rem;
+}
+
+.sec-provide .sec-1 .num-percent .sec-num {
+  margin-right: 6rem;
+}
+
+.sec-provide .sec-1 .num-percent .num-title {
+  font-size: 3rem;
+  color: #2b555e;
+  font-weight: bold;
+}
+
+.sec-provide .sec-1 .num-percent .hr {
+  width: 30%;
+}
+
+.sec-provide .sec-1 .num-percent .num-paragraph {
+  font-size: 1.5rem;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fef6f0;
+  padding: 8rem 0;
+  margin: 2rem 0rem;
+}
+
+.products .title-products {
+  font-size: 6rem;
+  text-align: center;
+  width: 55%;
+  text-align: center;
+}
+
+.products .p-products {
+  font-size: 2rem;
+  text-align: center;
+  width: 45%;
+  margin-top: 2rem;
+}
+
+.sec-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 10rem;
+  margin-top: -8rem;
+}
+
+.sec-icon img {
+  width: 40px;
+  margin-right: 2rem;
+}
+
+.sec-comment {
+  background-color: #fef6f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.sec-comment .comment-box {
+  width: 25%;
+  margin: 0rem 3rem;
+  background-color: white;
+  padding: 5rem 4rem;
+}
+
+.sec-comment .comment-box i {
+  color: #ff0000;
+  font-size: 1.4rem;
+}
+
+.sec-comment .comment-box p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  line-height: 2.5rem;
+}
+
+.sec-comment .comment-box .comment-box-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.sec-comment .comment-box .comment-box-profile img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.sec-comment .comment-box .comment-box-profile .sec-profile {
+  margin-top: 1rem;
+  margin-right: 4rem;
+}
+
+.sec-comment .comment-box .comment-box-profile .sec-profile p {
+  margin-top: -0.1rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8rem 0rem;
+}
+
+footer .footer-div p {
+  font-size: 1.8rem;
+  width: 30%;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */
