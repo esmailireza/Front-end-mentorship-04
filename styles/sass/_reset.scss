@@ -1,16 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rosario&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@font-face {
+  font-family: Gilroy-Thin;
+  src: url("../../fonts/gilroy/Gilroy-Thin.ttf");
+}
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url("../../fonts/gilroy/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("../../fonts/gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url("../../fonts/gilroy/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("../../fonts/gilroy/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy-Black;
+  src: url("../../fonts/gilroy/Gilroy-Black.ttf");
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   list-style: none;
 }
 
 html {
   font-size: 62.5%;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: Gilroy-Regular;
   scroll-behavior: smooth;
 }
 

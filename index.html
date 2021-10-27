@@ -20,7 +20,7 @@
       <nav>
         <ul>
           <div class="ul-div-justify">
-            <li>WILDLING</li>
+            <li class="logo-website">WILDLING</li>
           </div>
           <div class="ul-div-justify">
             <li>Manufacturing</li>
@@ -88,7 +88,7 @@
         </li>
       </ul>
     </section>
-    <section class="sec-about-us">
+    <div class="sec-about-us">
       <div class="about-us">
         <h1>about us</h1>
         <p>
@@ -97,7 +97,6 @@
         </p>
         <input type="button" value="VIEW DETAIL" class="view-btn" />
         <br />
-        <!-- <button class="view-btn">VIEW DETAIL</button> -->
         <img src="./images/about-us1.jpg" alt="" style="margin-top: 8rem" />
       </div>
       <div class="about-us-2">
@@ -113,9 +112,9 @@
         </p>
         <button class="Read-btn">Read More</button>
       </div>
-    </section>
-    <section class="products">
-      <h1 class="title-products">Products</h1>
+    </div>
+    <section class="products-section">
+      <h1 class="title-products">products</h1>
       <p class="p-products">
         Improves lymphatic function, resulting in a naturally dewy, glowing
         complexion.
@@ -150,10 +149,11 @@
             <p class="num-paragraph">Happy&nbsp;Customers</p>
           </div>
         </div>
-        <input type="button" value="VIEW DETAIL" class="view-btn" />
-        <button class="Read-btn">Read More</button>
+
+        <input type="button" value="BUY NOW" class="view-btn" />
+        <button class="Read-btn">ADD TO CART</button>
       </div>
-      <div class="about-us-2">
+      <div class="about-us-right">
         <img src="./images/about-us2.jpg" alt="" />
         <h1>higher self oil</h1>
         <p>
@@ -164,39 +164,47 @@
           law built now. In built table in an rapid blush.
         </p>
         <div class="num-percent">
-          <div>
+          <div class="sec-num">
             <h1 class="num-title">100%</h1>
             <hr class="hr" />
             <p class="num-paragraph">Organic&nbsp;Products</p>
           </div>
-          <div>
+          <div class="sec-num">
             <h1 class="num-title">1M+</h1>
             <hr class="hr" />
             <p class="num-paragraph">Yearly&nbsp;Sales</p>
           </div>
-          <div>
+          <div class="sec-num">
             <h1 class="num-title">95%</h1>
             <hr class="hr" />
             <p class="num-paragraph">Happy&nbsp;Customers</p>
           </div>
         </div>
-        <input type="button" value="VIEW DETAIL" class="view-btn" />
-        <button class="Read-btn">Read More</button>
+        <input type="button" value="BUY NOW" class="view-btn" />
+        <button class="Read-btn">ADD TO CART</button>
       </div>
     </section>
     <!-- section count -->
     <section class="sec-count">
       <div class="sec-div">
-        <h1>500+</h1>
-        <p>Organic Products</p>
+        <div class="sec-div-num">
+          <h1>500+</h1>
+          <p>Organic Products</p>
+        </div>
+        <div class="sec-div-border"></div>
       </div>
       <div class="sec-div">
-        <h1>100+</h1>
-        <p>International Franchises</p>
+        <div class="sec-div-num">
+          <h1>100+</h1>
+          <p>International Franchises</p>
+        </div>
+        <div class="sec-div-border"></div>
       </div>
       <div class="sec-div">
-        <h1>1 Million+</h1>
-        <p>Sales through out the World</p>
+        <div class="sec-div-num">
+          <h1>1 Million+</h1>
+          <p>Sales through out the World</p>
+        </div>
       </div>
     </section>
     <!-- section provide -->
@@ -280,42 +288,45 @@
         </div>
       </div>
     </section>
-    <!--    <footer>
-      <div class="footer-div">
-        <h1>WILDLING</h1>
-        <p>
-          Sufficient particular impossible by reasonable oh expression is. Yet
-          preference unpleasant. Menu Donations Features
-        </p>
-      </div>
-      <div class="footer-div">
-        <ul>
-          <li>Menu</li>
-          <li>Donations</li>
-          <li>Features</li>
-          <li>Category</li>
-          <li>Volunteer</li>
-          <li>About Us</li>
-        </ul>
-      </div>
-      <div class="footer-div">
-        <ul>
-          <li>Categories</li>
-          <li>Healthy Food</li>
-          <li>Education</li>
-          <li>Clean Water</li>
-          <li>Medical Help</li>
-        </ul>
-      </div>
-      <div class="footer-div">
-        <ul>
-          <li>About Us</li>
-          <li>Who are you?</li>
-          <li>Contact Us</li>
-          <li>FAQ</li>
-          <li>Help</li>
-        </ul>
-      </div>
-    </footer> -->
+    <!-- footer section -->
+    <footer>
+      <section>
+        <div class="footer-div-wilding">
+          <h1>WILDLING</h1>
+          <p>
+            Sufficient particular impossible by reasonable oh expression is. Yet
+            preference unpleasant. Menu Donations Features
+          </p>
+        </div>
+        <div class="footer-div">
+          <ul>
+            <li class="footer-div-title">Menu</li>
+            <li>Donations</li>
+            <li>Features</li>
+            <li>Category</li>
+            <li>Volunteer</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+        <div class="footer-div">
+          <ul>
+            <li class="footer-div-title">Categories</li>
+            <li>Healthy Food</li>
+            <li>Education</li>
+            <li>Clean Water</li>
+            <li>Medical Help</li>
+          </ul>
+        </div>
+        <div class="footer-div">
+          <ul>
+            <li class="footer-div-title">About Us</li>
+            <li>Who are you?</li>
+            <li>Contact Us</li>
+            <li>FAQ</li>
+            <li>Help</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

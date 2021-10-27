@@ -1,16 +1,35 @@
 footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 8rem 0rem;
-  .footer-div {
-    p {
-      font-size: 1.8rem;
-      width: 30%;
-    }
-  }
-  ul {
+  section {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    .footer-div-wilding {
+      width: 20%;
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 2.2rem;
+
+        line-height: 3rem;
+        margin-top: 2rem;
+      }
+    }
+    .footer-div {
+      ul {
+        display: flex;
+        flex-direction: column;
+        .footer-div-title {
+          font-size: 3rem;
+        }
+        li {
+          font-size: 2rem;
+          margin: 0.7rem 0rem;
+        }
+      }
+    }
   }
 }

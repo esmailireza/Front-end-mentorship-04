@@ -1,4 +1,4 @@
-.products {
+.products-section {
   margin: 2rem 0rem;
   .title-products {
     font-size: 8rem;
@@ -13,25 +13,24 @@
 
 .sec-products {
   display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  /* display: grid;
+  grid-template-columns: 600px 600px; */
+  /* justify-items: center; */
   margin: 8rem 0rem;
   .sec-1 {
-    width: 50%;
-    margin-left: 12rem;
+    /* background-color: green; */
+    width: 600px;
+
     h1 {
       font-size: 5rem;
-      font-weight: 100;
       margin: 1.5rem 0rem;
-      /* margin-left: 10rem; */
     }
     p {
       font-size: 2rem;
-      /* margin-left: 10rem; */
       line-height: 3rem;
-      /* padding-right: 15rem; */
-      width: 80%;
+      width: 90%;
     }
     .Read-btn {
       color: black;
@@ -52,7 +51,7 @@
       .sec-num {
         margin-right: 6rem;
       }
-      /*  width: 50%; */
+
       margin-top: 3rem;
       .num-title {
         font-size: 3rem;
@@ -60,20 +59,31 @@
         font-weight: bold;
       }
       .hr {
-        width: 30%;
+        width: 50%;
       }
       .num-paragraph {
         font-size: 1.5rem;
       }
     }
   }
-  .about-us-2 {
+  .about-us-right {
+    /* background-color: green; */
+    width: 600px;
     h1 {
       font-size: 5rem;
       margin: 1.5rem 0rem;
     }
     p {
+      font-size: 2rem;
+      line-height: 3rem;
+      padding-right: 0rem;
       width: 90%;
+    }
+    .Read-btn {
+      color: black;
+      background-color: white;
+      margin-top: 4rem;
+      padding: 2rem 4rem;
     }
     .view-btn {
       margin-top: 4rem;
@@ -84,36 +94,53 @@
     }
     .num-percent {
       display: flex;
-      justify-content: center;
-      /* width: 50%; */
-
+      justify-content: flex-start;
       margin-top: 3rem;
+      .sec-num {
+        margin-right: 6rem;
+      }
       .num-title {
         font-size: 3rem;
         color: #2b555e;
         font-weight: bold;
       }
       .hr {
-        width: 30%;
+        width: 50%;
       }
       .num-paragraph {
         font-size: 1.5rem;
+        margin-top: 0rem;
       }
     }
   }
 }
 
 .sec-count {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center; */
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: #fefbf7;
   padding: 4rem 0;
+  .sec-div {
+    display: flex;
+    .sec-div-num {
+      margin: 0rem 5rem;
+    }
+    .sec-div-border {
+      margin-left: 8rem;
+      border-right: 2px solid black;
+    }
+  }
+
   h1 {
     font-size: 4.5rem;
   }
   p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-top: 1.5rem;
   }
 }
