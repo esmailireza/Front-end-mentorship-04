@@ -2,7 +2,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8rem 0rem;
+  padding: 5rem 0rem 4rem 0rem;
   section {
     display: flex;
     justify-content: space-around;
@@ -16,6 +16,24 @@ footer {
 
         line-height: 3rem;
         margin-top: 2rem;
+      }
+      .footer-div-wilding-socialMedia {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 5rem;
+        .footer-div-wilding-socialMedia-div {
+          background-color: $brownDarkColor;
+          border-radius: 50%;
+          padding: 1rem 1.1rem;
+          margin-right: 1.5rem;
+          i {
+            font-size: 2rem;
+            color: white;
+          }
+        }
+        .facebook {
+          padding: 1rem 1.4rem;
+        }
       }
     }
     .footer-div {
@@ -31,5 +49,21 @@ footer {
         }
       }
     }
+  }
+}
+.after-footer {
+  display: flex;
+  justify-content: center;
+  div {
+    border-bottom: 1px solid black;
+    width: 85%;
+  }
+}
+
+.copyright-section {
+  text-align: center;
+  p {
+    font-size: 1.8rem;
+    padding: 3rem 0rem;
   }
 }

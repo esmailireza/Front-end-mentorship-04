@@ -688,7 +688,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 8rem 0rem;
+  padding: 5rem 0rem 4rem 0rem;
 }
 
 footer section {
@@ -713,6 +713,32 @@ footer section .footer-div-wilding p {
   margin-top: 2rem;
 }
 
+footer section .footer-div-wilding .footer-div-wilding-socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 5rem;
+}
+
+footer section .footer-div-wilding .footer-div-wilding-socialMedia .footer-div-wilding-socialMedia-div {
+  background-color: #362b23;
+  border-radius: 50%;
+  padding: 1rem 1.1rem;
+  margin-right: 1.5rem;
+}
+
+footer section .footer-div-wilding .footer-div-wilding-socialMedia .footer-div-wilding-socialMedia-div i {
+  font-size: 2rem;
+  color: white;
+}
+
+footer section .footer-div-wilding .footer-div-wilding-socialMedia .facebook {
+  padding: 1rem 1.4rem;
+}
+
 footer section .footer-div ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -730,5 +756,28 @@ footer section .footer-div ul .footer-div-title {
 footer section .footer-div ul li {
   font-size: 2rem;
   margin: 0.7rem 0rem;
+}
+
+.after-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.after-footer div {
+  border-bottom: 1px solid black;
+  width: 85%;
+}
+
+.copyright-section {
+  text-align: center;
+}
+
+.copyright-section p {
+  font-size: 1.8rem;
+  padding: 3rem 0rem;
 }
 /*# sourceMappingURL=style.css.map */
