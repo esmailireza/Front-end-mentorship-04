@@ -5,6 +5,21 @@ header {
       font-family: "Raleway", sans-serif;
       font-size: 2.5rem;
     }
+    .shopping-icon {
+      i {
+        position: relative;
+        .counter {
+          background-color: $brownDarkColor;
+          color: white;
+          border-radius: 50%;
+          padding: 0.3rem 0.6rem;
+          font-size: small;
+          position: absolute;
+          top: -1.4rem;
+          right: -1.6rem;
+        }
+      }
+    }
   }
   h1 {
     font-size: 7rem;
@@ -62,6 +77,12 @@ header {
       }
     }
   }
+  .sec-socialMedia {
+    position: absolute;
+    bottom: -8rem;
+    right: 5rem;
+    z-index: 10;
+  }
   .view-btn {
     position: absolute;
     bottom: 0rem;
@@ -77,7 +98,7 @@ header {
   }
 
   h2,
-  span {
+  .positive {
     position: absolute;
     z-index: 10;
   }
@@ -85,7 +106,7 @@ header {
     right: 20%;
     bottom: 19%;
   }
-  span {
+  .positive {
     right: 37%;
     color: white;
     font-size: 2rem;

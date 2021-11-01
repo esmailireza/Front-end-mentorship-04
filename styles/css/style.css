@@ -83,6 +83,21 @@ header .ul-div-justify .logo-website {
   font-size: 2.5rem;
 }
 
+header .ul-div-justify .shopping-icon i {
+  position: relative;
+}
+
+header .ul-div-justify .shopping-icon i .counter {
+  background-color: #362b23;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem 0.6rem;
+  font-size: small;
+  position: absolute;
+  top: -1.4rem;
+  right: -1.6rem;
+}
+
 header h1 {
   font-size: 7rem;
   text-align: center;
@@ -150,6 +165,13 @@ header .paragraph-right .form-search button:hover {
   background: #362b23;
 }
 
+header .sec-socialMedia {
+  position: absolute;
+  bottom: -8rem;
+  right: 5rem;
+  z-index: 10;
+}
+
 header .view-btn {
   position: absolute;
   bottom: 0rem;
@@ -166,7 +188,7 @@ header .view-btn:hover {
 }
 
 header h2,
-header span {
+header .positive {
   position: absolute;
   z-index: 10;
 }
@@ -176,7 +198,7 @@ header h2 {
   bottom: 19%;
 }
 
-header span {
+header .positive {
   right: 37%;
   color: white;
   font-size: 2rem;
