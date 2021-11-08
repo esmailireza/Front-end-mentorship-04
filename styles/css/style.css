@@ -75,7 +75,13 @@ ul .ul-div-justify li {
 }
 
 header {
-  background-color: #f3d3c3;
+  /* background-color: $bgColor; */
+  background-image: url("../../images/header3.jpg");
+  width: 100%;
+  height: 140vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 header .ul-div-justify .logo-website {
@@ -101,7 +107,7 @@ header .ul-div-justify .shopping-icon i .counter {
 header h1 {
   font-size: 7rem;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   font-weight: 800;
   letter-spacing: -5px;
   color: #362b23;
@@ -114,7 +120,7 @@ header .paragraph-right {
       -ms-flex-pack: last baseline;
           justify-content: last baseline;
   z-index: 10;
-  bottom: 8rem;
+  bottom: 45%;
   width: 32%;
   padding-left: 4rem;
   line-height: 25px;
@@ -130,28 +136,32 @@ header .paragraph-right .paragraph-2 {
   margin-top: 3rem;
 }
 
-header .paragraph-right form {
+header .paragraph-right .form-search {
   margin-top: 3rem;
+  background-color: white;
+  position: relative;
+  width: 80%;
 }
 
 header .paragraph-right .form-search input[type="text"] {
-  padding: 10px;
+  padding: 1.6rem;
   font-size: 17px;
   border: 0px;
   float: left;
-  width: 70%;
+  width: 100%;
   background: #f1f1f1;
   outline: none;
-  position: relative;
+  /* position: relative; */
 }
 
 header .paragraph-right .form-search button {
   position: absolute;
-  right: 12.5rem;
-  bottom: 0.5rem;
+  right: 1rem;
+  /* bottom: 0.5rem; */
+  margin-top: 0.6rem;
   float: left;
-  width: 8%;
-  padding: 5px;
+  width: 12%;
+  padding: 1rem;
   background: #362b23;
   color: white;
   font-size: 17px;
@@ -167,24 +177,43 @@ header .paragraph-right .form-search button:hover {
 
 header .sec-socialMedia {
   position: absolute;
-  bottom: -8rem;
-  right: 5rem;
+  bottom: 15rem;
+  right: 6rem;
   z-index: 10;
+}
+
+header .sec-socialMedia i {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+header .sec-socialMedia i:hover {
+  cursor: pointer;
 }
 
 header .view-btn {
   position: absolute;
-  bottom: 0rem;
+  bottom: 34%;
   z-index: 10;
   margin-left: 4rem;
   padding: 1.5rem 5rem;
   border: none;
   background-color: #362b23;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
   color: white;
+  border: 2.5px solid #362b23;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 header .view-btn:hover {
   cursor: pointer;
+  background-color: white;
+  color: #362b23;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px 0px transparent;
 }
 
 header h2,
@@ -195,7 +224,7 @@ header .positive {
 
 header h2 {
   right: 20%;
-  bottom: 19%;
+  bottom: 48%;
 }
 
 header .positive {
@@ -206,7 +235,7 @@ header .positive {
   padding: 1.8rem 2.4rem;
   opacity: 0.7;
   border-radius: 60%;
-  bottom: 15.5%;
+  bottom: 45%;
 }
 
 header .border-line {
@@ -214,14 +243,14 @@ header .border-line {
   width: 8%;
   z-index: 15;
   position: absolute;
-  bottom: 20%;
+  bottom: 48.5%;
   right: 28%;
 }
 
 header .p-skin {
   position: absolute;
   z-index: 10;
-  bottom: 10%;
+  bottom: 40%;
   font-size: 1.5rem;
   right: 8.5%;
   width: 18%;
@@ -265,9 +294,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -275,47 +304,69 @@ img {
 }
 
 .about-us {
-  width: 50%;
-  margin-left: 12rem;
+  width: 600px;
 }
 
 .about-us h1 {
   font-size: 7rem;
   color: #362b23;
-  margin-bottom: 2rem;
 }
 
 .about-us p {
   font-size: 1.8rem;
-  /* margin-left: 10rem; */
   line-height: 3rem;
   padding-right: 15rem;
 }
 
 .about-us .view-btn {
   margin-top: 4rem;
-  padding: 1.5rem 4rem;
+  padding: 1.3rem 5rem;
   background-color: #362b23;
   color: white;
-  /* margin-left: 10rem; */
+  border: 2.5px solid #362b23;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.about-us .view-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #362b23;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px 0px transparent;
 }
 
 .about-us-2 {
-  width: 50%;
+  width: 600px;
 }
 
 .about-us-2 p {
   margin-top: 2rem;
   font-size: 1.8rem;
-  padding-right: 14rem;
   line-height: 3rem;
 }
 
 .about-us-2 .Read-btn {
   color: black;
   background-color: white;
-  margin-top: 3rem;
-  padding: 1.5rem 4rem;
+  margin-top: 2.5rem;
+  padding: 1.3rem 4.5rem;
+  /* border: 2.5px solid $brownDarkColor; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.about-us-2 .Read-btn:hover {
+  cursor: pointer;
+  background-color: #362b23;
+  color: white;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
+  /* box-shadow: 0px 0px 0px 0px transparent; */
 }
 
 .products-section {
@@ -347,7 +398,6 @@ img {
 }
 
 .sec-products .sec-1 {
-  /* background-color: green; */
   width: 600px;
 }
 
@@ -366,15 +416,43 @@ img {
   color: black;
   background-color: white;
   margin-top: 4rem;
-  padding: 2rem 4rem;
+  padding: 1.3rem 4rem;
+  font-family: Gilroy-Bold;
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec-products .sec-1 .Read-btn:hover {
+  cursor: pointer;
+  background-color: #362b23;
+  color: white;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
+  /* box-shadow: 0px 0px 0px 0px transparent; */
 }
 
 .sec-products .sec-1 .view-btn {
   margin-top: 4rem;
-  padding: 2rem 4rem;
+  padding: 1.6rem 5.3rem;
   background-color: #362b23;
   color: white;
   margin-right: 5rem;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
+  border: 2.5px solid #362b23;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec-products .sec-1 .view-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #362b23;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px 0px transparent;
 }
 
 .sec-products .sec-1 .num-percent {
@@ -393,12 +471,13 @@ img {
 
 .sec-products .sec-1 .num-percent .num-title {
   font-size: 3rem;
-  color: #2b555e;
-  font-weight: bold;
+  color: #218297;
+  font-family: Gilroy-Bold;
 }
 
 .sec-products .sec-1 .num-percent .hr {
   width: 50%;
+  border-top: 3px solid #362b23;
 }
 
 .sec-products .sec-1 .num-percent .num-paragraph {
@@ -426,15 +505,43 @@ img {
   color: black;
   background-color: white;
   margin-top: 4rem;
-  padding: 2rem 4rem;
+  padding: 1.3rem 4rem;
+  font-family: Gilroy-Bold;
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec-products .about-us-right .Read-btn:hover {
+  cursor: pointer;
+  background-color: #362b23;
+  color: white;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
+  /* box-shadow: 0px 0px 0px 0px transparent; */
 }
 
 .sec-products .about-us-right .view-btn {
   margin-top: 4rem;
-  padding: 2rem 4rem;
+  padding: 1.6rem 5.3rem;
   background-color: #362b23;
   color: white;
   margin-right: 5rem;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
+  border: 2.5px solid #362b23;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec-products .about-us-right .view-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #362b23;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px 0px transparent;
 }
 
 .sec-products .about-us-right .num-percent {
@@ -453,12 +560,13 @@ img {
 
 .sec-products .about-us-right .num-percent .num-title {
   font-size: 3rem;
-  color: #2b555e;
-  font-weight: bold;
+  color: #218297;
+  font-family: Gilroy-Bold;
 }
 
 .sec-products .about-us-right .num-percent .hr {
   width: 50%;
+  border-top: 3px solid #362b23;
 }
 
 .sec-products .about-us-right .num-percent .num-paragraph {
@@ -467,36 +575,34 @@ img {
 }
 
 .sec-count {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  align-items: center; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: #fefbf7;
   padding: 4rem 0;
+  text-align: center;
 }
 
-.sec-count .sec-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.sec-count .sec-div .sec-div-num {
+.sec-count .sec-div-num {
   margin: 0rem 5rem;
 }
 
-.sec-count .sec-div .sec-div-border {
-  margin-left: 8rem;
-  border-right: 2px solid black;
+.sec-count .sec-div-num h1 {
+  font-family: Gilroy-Bold;
+  color: #362b23;
+  font-size: 4rem;
+}
+
+.sec-count .sec-span-border {
+  background-color: #362b23;
+  width: 3px;
+  height: 10rem;
 }
 
 .sec-count h1 {
@@ -564,10 +670,24 @@ img {
 
 .sec-provide .sec-1 .view-btn {
   margin-top: 4rem;
-  padding: 2rem 4rem;
+  padding: 1.3rem 4rem;
   background-color: #362b23;
   color: white;
   margin-right: 5rem;
+  -webkit-box-shadow: 0px 20px 30px -10px #57452a;
+          box-shadow: 0px 20px 30px -10px #57452a;
+  /* #26394d */
+  border: 2.5px solid #362b23;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec-provide .sec-1 .view-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #362b23;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px 0px transparent;
 }
 
 .sec-provide .sec-1 .num-percent {
@@ -640,9 +760,15 @@ img {
   margin-top: -8rem;
 }
 
-.sec-icon img {
-  width: 40px;
-  margin-right: 2rem;
+.sec-icon .arrow-icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.sec-icon .arrow-icon i {
+  font-size: 2rem;
+  padding: 1.2rem;
 }
 
 .sec-comment {

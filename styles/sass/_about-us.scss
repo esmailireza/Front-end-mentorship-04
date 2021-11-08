@@ -1,46 +1,59 @@
 .sec-about-us {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin: 8rem 0rem;
 }
 
 .about-us {
-  width: 50%;
-  margin-left: 12rem;
+  width: 600px;
   h1 {
     font-size: 7rem;
     color: $brownDarkColor;
-    margin-bottom: 2rem;
   }
   p {
     font-size: 1.8rem;
-    /* margin-left: 10rem; */
     line-height: 3rem;
     padding-right: 15rem;
   }
   .view-btn {
     margin-top: 4rem;
-    padding: 1.5rem 4rem;
+    padding: 1.3rem 5rem;
     background-color: $brownDarkColor;
     color: white;
-    /* margin-left: 10rem; */
+    border: 2.5px solid $brownDarkColor;
+    box-shadow: 0px 20px 30px -10px #57452a; /* #26394d */
+    transition: 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: white;
+      color: $brownDarkColor;
+      box-shadow: 0px 0px 0px 0px transparent;
+    }
   }
 }
 .about-us-2 {
-  width: 50%;
-
+  width: 600px;
   p {
     margin-top: 2rem;
     font-size: 1.8rem;
-    padding-right: 14rem;
     line-height: 3rem;
   }
   .Read-btn {
     color: black;
     background-color: white;
-    margin-top: 3rem;
-    padding: 1.5rem 4rem;
+    margin-top: 2.5rem;
+    padding: 1.3rem 4.5rem;
+    /* border: 2.5px solid $brownDarkColor; */
+    transition: 0.5s;
+    &:hover {
+      cursor: pointer;
+      background-color: $brownDarkColor;
+      color: white;
+      box-shadow: 0px 20px 30px -10px #57452a; /* #26394d */
+      /* box-shadow: 0px 0px 0px 0px transparent; */
+    }
   }
 }

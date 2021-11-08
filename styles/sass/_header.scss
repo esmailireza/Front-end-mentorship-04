@@ -1,5 +1,11 @@
 header {
-  background-color: $bgColor;
+  /* background-color: $bgColor; */
+  background-image: url("../../images/header3.jpg");
+  width: 100%;
+  height: 140vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
   .ul-div-justify {
     .logo-website {
       font-family: "Raleway", sans-serif;
@@ -24,7 +30,7 @@ header {
   h1 {
     font-size: 7rem;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     font-weight: 800;
     letter-spacing: -5px;
     color: $brownDarkColor;
@@ -34,7 +40,7 @@ header {
     position: absolute;
     justify-content: last baseline;
     z-index: 10;
-    bottom: 8rem;
+    bottom: 45%;
     width: 32%;
     padding-left: 4rem;
     line-height: 25px;
@@ -45,27 +51,31 @@ header {
     .paragraph-2 {
       margin-top: 3rem;
     }
-    form {
+    .form-search {
       margin-top: 3rem;
+      background-color: white;
+      position: relative;
+      width: 80%;
     }
     .form-search input[type="text"] {
-      padding: 10px;
+      padding: 1.6rem;
       font-size: 17px;
       border: 0px;
       float: left;
-      width: 70%;
+      width: 100%;
       background: #f1f1f1;
       outline: none;
-      position: relative;
+      /* position: relative; */
     }
     /* Style the submit button */
     .form-search button {
       position: absolute;
-      right: 12.5rem;
-      bottom: 0.5rem;
+      right: 1rem;
+      /* bottom: 0.5rem; */
+      margin-top: 0.6rem;
       float: left;
-      width: 8%;
-      padding: 5px;
+      width: 12%;
+      padding: 1rem;
       background: $brownDarkColor;
       color: white;
       font-size: 17px;
@@ -79,21 +89,34 @@ header {
   }
   .sec-socialMedia {
     position: absolute;
-    bottom: -8rem;
-    right: 5rem;
+    bottom: 15rem;
+    right: 6rem;
     z-index: 10;
+    i {
+      font-size: 2.5rem;
+      margin-top: 3rem;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
   .view-btn {
     position: absolute;
-    bottom: 0rem;
+    bottom: 34%;
     z-index: 10;
     margin-left: 4rem;
     padding: 1.5rem 5rem;
     border: none;
     background-color: $brownDarkColor;
+    box-shadow: 0px 20px 30px -10px #57452a; /* #26394d */
     color: white;
+    border: 2.5px solid $brownDarkColor;
+    transition: 0.5s;
     &:hover {
       cursor: pointer;
+      background-color: white;
+      color: $brownDarkColor;
+      box-shadow: 0px 0px 0px 0px transparent;
     }
   }
 
@@ -104,7 +127,7 @@ header {
   }
   h2 {
     right: 20%;
-    bottom: 19%;
+    bottom: 48%;
   }
   .positive {
     right: 37%;
@@ -114,20 +137,20 @@ header {
     padding: 1.8rem 2.4rem;
     opacity: 0.7;
     border-radius: 60%;
-    bottom: 15.5%;
+    bottom: 45%;
   }
   .border-line {
     border: 1px solid $brownDarkColor;
     width: 8%;
     z-index: 15;
     position: absolute;
-    bottom: 20%;
+    bottom: 48.5%;
     right: 28%;
   }
   .p-skin {
     position: absolute;
     z-index: 10;
-    bottom: 10%;
+    bottom: 40%;
     font-size: 1.5rem;
     right: 8.5%;
     width: 18%;

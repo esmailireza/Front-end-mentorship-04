@@ -44,10 +44,19 @@
     }
     .view-btn {
       margin-top: 4rem;
-      padding: 2rem 4rem;
+      padding: 1.3rem 4rem;
       background-color: $brownDarkColor;
       color: white;
       margin-right: 5rem;
+      box-shadow: 0px 20px 30px -10px #57452a; /* #26394d */
+      border: 2.5px solid $brownDarkColor;
+      transition: 0.5s;
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: $brownDarkColor;
+        box-shadow: 0px 0px 0px 0px transparent;
+      }
     }
     .num-percent {
       display: flex;
